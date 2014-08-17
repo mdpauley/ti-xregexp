@@ -1,0 +1,5 @@
+*.zip
+node_modules
+test/fake-app/build
+test/fake-app/modules
+test/fake-app/Resources/config.js

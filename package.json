@@ -1,0 +1,35 @@
+{
+  "name": "ti-xregexp",
+  "guid": "53b9ee59-b576-f6ca-a1eb-8790b357c0f0",
+  "version": "2.0.0",
+  "description": "XRegExp for Titanium",
+  "license": "LGPL-2.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdpauley/ti-xregexp.git"
+  },
+  "engines": {
+    "titaniumsdk": ">= 3.3.0.GA"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "titanium": {
+    "./index.js": "./titanium.js",
+    "xregexp": "xregexp"
+  },
+  "browser": {
+    "xregexp": "xregexp"
+  },
+  "dependencies": {
+    "xregexp": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-titanium": "^0.1.1",
+    "grunt-titaniumifier": "^0.2.7",
+    "grunt-zip": "^0.16.0"
+  }
+}
