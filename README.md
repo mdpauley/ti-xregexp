@@ -14,7 +14,7 @@ This is a [titaniumified][ti] version of [XRegExp][xre]. This is built using [`g
 If you are developing a Titanium SDK application, a packaged *CommonJS* module can be found in the [Releases page][rls].
 
 If you are instead
-- porting with *titaniumifier* a Node.js module to Titanium, and it uses *superagent*;
+- porting with *titaniumifier* a Node.js module to Titanium, and it uses *XRegExp*;
 - or building CommonJS module using *titaniumifier* and you want to have a reliable, stable, tested HTTPClient;
 
 then you can install this module with
